@@ -1,0 +1,98 @@
+<!-- Name: Ahmed Elsharkawy | Student ID: 224101540 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed Elsharkawy | Profile</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="banner">
+      <h1>Ahmed Elsharkawy</h1>
+      <p>Artificial Intelligence student at New Mansoura University</p>
+    </div>
+
+    <nav class="navbar">
+      <span class="nav-name">Ahmed Elsharkawy</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://github.com/elsharkawy55a-cyber" target="_blank" rel="noopener">GitHub</a></li>
+        <li><button id="theme-toggle" type="button">Dark mode</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="about">
+      <img src="images/me.jpg" alt="Portrait of Ahmed Elsharkawy standing outdoors at night" class="photo">
+      <div class="about-text">
+        <h2>About me</h2>
+        <p>
+          I study Computer Science &amp; Engineering in the Department of Artificial Intelligence
+          at New Mansoura University. My main interests are Data Science, Artificial Intelligence,
+          Machine Learning, and Programming.
+        </p>
+      </div>
+    </section>
+
+    <section class="cards" aria-label="Skills, hobbies and goals">
+      <article class="card">
+        <h3>Skills</h3>
+        <ul>
+          <li>Python programming</li>
+          <li>Data analysis with Pandas and NumPy</li>
+          <li>Data visualization with Matplotlib</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>Hobbies</h3>
+        <ul>
+          <li>Working out</li>
+          <li>Reading about technology and AI</li>
+          <li>Building small websites</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>Goals</h3>
+        <ul>
+          <li>Improve my programming skills</li>
+          <li>Build practical Data Science projects</li>
+          <li>Learn more about Machine Learning</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact form</h2>
+      <p class="note">This is a practice form. Nothing is sent anywhere.</p>
+
+      <form id="contact-form">
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+        </div>
+
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </div>
+
+        <button type="submit" class="submit">Send</button>
+        <p id="form-message" class="form-message" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Ahmed Elsharkawy. New Mansoura University.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
